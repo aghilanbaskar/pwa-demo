@@ -1,0 +1,72 @@
+{
+	"name": "Geekflare",
+	"short_name": "Geekflare",
+	"description": "Geekflare produces high-quality technology & finance articles, makes tools, and APIs to help businesses and people grow.",
+	"start_url": "/",
+	"icons": [{
+		"src": "assets/icons/icon-128x128.png",
+		"sizes": "128x128",
+		"type": "image/png"
+	}, {
+		"src": "assets/icons/icon-152x152.png",
+		"sizes": "152x152",
+		"type": "image/png"
+	}, {
+		"src": "assets/icons/icon-192x192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	}, {
+		"src": "assets/icons/icon-284x284.png",
+		"sizes": "284x284",
+		"type": "image/png"
+	}, {
+		"src": "assets/icons/icon-512x512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	}],
+	"background_color": "#EDF2F4",
+	"display": "standalone",
+	"theme_color": "#ff4e00",
+	"scope": "/",
+	"shortcuts": [{
+			"name": "Articles",
+			"short_name": "Articles",
+			"description": "1595 articles on Security, Sysadmin, Digital Marketing, Cloud Computing, Development, and many other topics.",
+			"url": "/articles",
+			"icons": [{
+				"src": "/assets/icons/icon-152x152.png",
+				"sizes": "152x152"
+			}]
+		},
+		{
+			"name": "Authors",
+			"short_name": "Authors",
+			"description": "Geekflare - Authors",
+			"url": "/authors",
+			"icons": [{
+				"src": "/assets/icons/icon-152x152.png",
+				"sizes": "152x152"
+			}]
+		},
+		{
+			"name": "Tools",
+			"short_name": "Tools",
+			"description": "Geekflare - Tools",
+			"url": "/tools",
+			"icons": [{
+				"src": "/assets/icons/icon-152x152.png",
+				"sizes": "152x152"
+			}]
+		},
+		{
+			"name": "Deals",
+			"short_name": "Deals",
+			"description": "Geekflare - Deals",
+			"url": "/deals",
+			"icons": [{
+				"src": "/assets/icons/icon-152x152.png",
+				"sizes": "152x152"
+			}]
+		}
+	]
+}
