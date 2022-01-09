@@ -2,7 +2,7 @@
 	"name": "Geekflare",
 	"short_name": "Geekflare",
 	"description": "Geekflare produces high-quality technology & finance articles, makes tools, and APIs to help businesses and people grow.",
-	"start_url": "/",
+	"start_url": "/pwa-demo/",
 	"icons": [{
 		"src": "assets/icons/icon-128x128.png",
 		"sizes": "128x128",
@@ -27,14 +27,14 @@
 	"background_color": "#EDF2F4",
 	"display": "standalone",
 	"theme_color": "#ff4e00",
-	"scope": "/",
+	"scope": "/pwa-demo/",
 	"shortcuts": [{
 			"name": "Articles",
 			"short_name": "Articles",
 			"description": "1595 articles on Security, Sysadmin, Digital Marketing, Cloud Computing, Development, and many other topics.",
-			"url": "/articles",
+			"url": "https://aghilanbaskar.github.io/pwa-demo/articles",
 			"icons": [{
-				"src": "/assets/icons/icon-152x152.png",
+				"src": "https://aghilanbaskar.github.io/pwa-demo/assets/icons/icon-152x152.png",
 				"sizes": "152x152"
 			}]
 		},
@@ -42,9 +42,9 @@
 			"name": "Authors",
 			"short_name": "Authors",
 			"description": "Geekflare - Authors",
-			"url": "/authors",
+			"url": "https://aghilanbaskar.github.io/pwa-demo/authors",
 			"icons": [{
-				"src": "/assets/icons/icon-152x152.png",
+				"src": "https://aghilanbaskar.github.io/pwa-demo/assets/icons/icon-152x152.png",
 				"sizes": "152x152"
 			}]
 		},
@@ -52,9 +52,9 @@
 			"name": "Tools",
 			"short_name": "Tools",
 			"description": "Geekflare - Tools",
-			"url": "/tools",
+			"url": "https://aghilanbaskar.github.io/pwa-demo/tools",
 			"icons": [{
-				"src": "/assets/icons/icon-152x152.png",
+				"src": "https://aghilanbaskar.github.io/pwa-demo/assets/icons/icon-152x152.png",
 				"sizes": "152x152"
 			}]
 		},
@@ -62,9 +62,9 @@
 			"name": "Deals",
 			"short_name": "Deals",
 			"description": "Geekflare - Deals",
-			"url": "/deals",
+			"url": "https://aghilanbaskar.github.io/pwa-demo/deals",
 			"icons": [{
-				"src": "/assets/icons/icon-152x152.png",
+				"src": "https://aghilanbaskar.github.io/pwa-demo/assets/icons/icon-152x152.png",
 				"sizes": "152x152"
 			}]
 		}
