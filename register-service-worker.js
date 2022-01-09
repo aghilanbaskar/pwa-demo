@@ -49,7 +49,7 @@ const subscribeUser = async () => {
     })
     .then((subscription) => {
         console.log('User is subscribed newly:', subscription);
-        updateSubscriptionOnServer(subscription);
+        updateSubscriptionOnYourServer(subscription);
     })
     .catch((err) => {
         if (Notification.permission === 'denied') {
@@ -76,6 +76,10 @@ const urlB64ToUint8Array = (base64String) => {
 
 const checkSubscription = async () => {
     const swRegistration = await navigator.serviceWorker.getRegistration();
+    if(!swRegistration){
+        console.log('No service worker detected')
+        return;
+    }
     swRegistration.pushManager.getSubscription()
     .then(subscription => {
         if (!!subscription) {
