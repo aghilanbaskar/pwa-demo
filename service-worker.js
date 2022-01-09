@@ -16,3 +16,10 @@ self.addEventListener('fetch', function(event) { // HTTP request interceptor
         })
     );*/ // cache new request. if already in cache serves with cache.
 });
+
+//push messages are received in below event
+self.addEventListener('push', (event) => {
+    const json = JSON.parse(event.data.text())
+    console.log('Push Data', event.data.text())
+    self.registration.showNotification(json.header, json.options)
+});
